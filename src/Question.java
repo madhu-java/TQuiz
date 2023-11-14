@@ -5,7 +5,8 @@ private int id;
 private String question;
 private String[] options= new String[4];
 private int answer;
-
+public Question()
+{}
 
 public Question(int id, String question, String[] options, int answer) {
 	super();
